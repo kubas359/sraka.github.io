@@ -1,4 +1,6 @@
+let word;
 document.getElementById("myImage").onclick = function(){
-    console.log("sraka");
-
+    word = document.getElementById("myText").value;
+    console.log(word);
+    document.getElementById("myDis").innerHTML = word;
 }
